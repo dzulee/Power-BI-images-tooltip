@@ -9,7 +9,7 @@ This repository contains the assets and documentation for a professional Power B
 Executive Summary: A high-level view of Total Revenue ($17.9M), total Orders (52,560), and Average Transaction Price ($340.74).
 
 Ranking Page: A dedicated page visualizing the top performers (1st, 2nd, and 3rd place) using circular portrait icons and performance medals.
-<p align="center"><img src="Dashboards/RankingPageDashboard.png" width="600">
+<p align="center"><img src="Dashboards/RankingPageDashboard.png" width="600"></p>
 Interactive Tooltips: Hovering over product groups or salesperson names reveals custom tooltips containing high-resolution images hosted on GitHub.
 <p align="center"><img src="Dashboards/SalesDashboardToolTip.png" width="600" alt="Tooltips Power BI"></p>
 Dynamic Filtering: A sidebar filter pane allows users to slice data by Year (2019–2021), Manager, Supervisor, and specific Salesperson.
