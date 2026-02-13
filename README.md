@@ -1,19 +1,21 @@
 
 This Sales Dashboard project provides a comprehensive overview of revenue, orders, and salesperson performance. It features an interactive interface with advanced tooltip integration and a specialized ranking system for the sales team.
 
-### Sales Performance Dashboard
+## Sales Performance Dashboard
 This repository contains the assets and documentation for a professional Power BI Sales Dashboard. The report is designed to track key performance indicators (KPIs) and provide deep insights into regional and individual salesperson performance.
 <p align="center"><img src="Dashboards/SalesDashboardPage.png" width="600" alt="Sales Dashboard KPIs"></p>
+
 ## Key Features
 Executive Summary: A high-level view of Total Revenue ($17.9M), total Orders (52,560), and Average Transaction Price ($340.74).
 
 Ranking Page: A dedicated page visualizing the top performers (1st, 2nd, and 3rd place) using circular portrait icons and performance medals.
-<p align="center"><img src="Dashboards/RankingPagedashboard.png" width="600">
+<p align="center"><img src="Dashboards/RankingPageDashboard.png" width="600">
 Interactive Tooltips: Hovering over product groups or salesperson names reveals custom tooltips containing high-resolution images hosted on GitHub.
 <p align="center"><img src="Dashboards/SalesDashboardToolTip.png" width="600" alt="Tooltips Power BI"></p>
 Dynamic Filtering: A sidebar filter pane allows users to slice data by Year (2019–2021), Manager, Supervisor, and specific Salesperson.
 <p align="center"><img src="Dashboards/Filterpane.png" width="600" alt="Filter Pane"></p>
-## Project Structure
+
+### Project Structure
 [/PersonsImages](https://github.com/dzulee/Power-BI-images-tooltip/PersonsImages): Contains the circular portrait assets used for the salesperson ranking visuals.
 
 [/ProductsImages](https://github.com/dzulee/Power-BI-images-tooltip/ProductsImages): Contains the circular portrait assets used for the salesperson ranking visuals.
@@ -72,7 +74,8 @@ Consistency: All salesperson portraits are formatted as circles with a grey bord
 Accessibility: The filter pane uses a semi-transparent blue overlay, ensuring the dashboard background remains visible while the user makes selections.
 
 Visual Hierarchy: Gold, Silver, and Bronze medals are used on the "Ranking Page" to instantly identify the top 3 performers.
-##🏗️ Data Architecture
+
+## 🏗️ Data Architecture
 The project follows a Star Schema model to ensure optimal performance and scalability.
 
 <p align="center"> <img src="Dashboards/Model.png" width="700" alt="Data Model"> </p>
@@ -88,3 +91,6 @@ Revenue = SUM('Sales'[SalesAmount])
 ATP = DIVIDE([Revenue], [Total Orders], 0)
 
 % Revenue = DIVIDE([Revenue], [All (no slicing)], 0)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
